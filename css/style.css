@@ -1,0 +1,236 @@
+.btn-primary-p{
+    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    background: #2a97ad;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 1.5s;
+}
+
+.btn-primary-p:hover{
+    background: #000;
+    border-radius: 10px;
+}
+
+.bg-portafolio-nav{
+    background: rgb(255, 255, 255);
+}
+
+.wp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99;
+border-radius: 100%;
+transition: .5s;
+}
+
+.wp:hover{
+    box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.42);
+}
+
+#services{
+    text-align: center;
+    padding: 50px 0;
+    background: rgba(128, 128, 128, 0.134);
+}
+
+#services h2{
+    margin-bottom: 60px;
+    color: #2a97ad;
+}
+
+#services .item-servicio{
+    padding: 20px;
+    transition: .5s;
+}
+
+#services .item-servicio:hover{
+    -webkit-box-shadow: 0px 0px 35px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 35px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 35px -2px rgba(0,0,0,0.75);
+}
+
+
+#about{
+    margin: 60px 0;
+}
+
+#about h2{
+    color: #2a97ad;
+}
+
+#about img{
+    width: 400px;
+    max-width: 100%;
+}
+
+footer{
+    background: aliceblue;
+    color: #000;
+    text-align: center;
+    padding: 60px;
+}
+
+#carouselHeroCaptions .carousel-caption{
+    bottom: 42%;
+}
+
+#carouselHeroCaptions .carousel-caption h5{
+    font-size: 60px;
+}
+
+#carouselHeroCaptions .carousel-caption p{
+    font-size: 25px;
+}
+
+#carouselHeroCaptions .carousel-indicators{
+    bottom: 30%;
+}
+
+#carouselHeroCaptions .carousel-indicators button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#questions{
+    margin: 90px;
+}
+
+#questions h2{
+    color: #2a97ad;
+}
+
+#javascript{
+    width: 100%;
+    position: relative;
+    padding: 40px;
+    background: #000;
+}
+
+#javascript h2{
+    color: #ffffff;
+    margin-bottom: 80px;
+}
+
+#javascript button {
+    background: #000000;
+    color: aqua;
+    border: 3px solid aqua;
+    border-radius: 14px;
+    padding: 10px;
+    margin: 6px 4px;
+    transition: .5s;
+}
+
+#javascript button:hover{
+    background: #113c45;
+    color: #ffffff;
+}
+
+#javascript hr{
+    border-color: aqua;
+}
+
+#figura{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    margin: 40px auto;
+    border-radius: 16px;
+    transition: 1.5s;
+}
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background: rgb(255, 255, 255);
+    border: 1px solid #000;
+}
+#figura.horizontal{
+    width: 400px;
+    transition: 1.5s;
+}
+#figura.vertical{
+    height: 400px;
+    transition: 1.5s;
+}
+#figura.triangulo{
+    width: 0px;
+    height: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 152px solid #d8d8d8;
+    border-radius: 0px;
+    background-color: #000000;
+    transition: 1.5s;
+}
+#figura.degradado{
+    background: linear-gradient(0deg, #2a97ad, transparent);
+    transition: 1.5s;
+}
+#figura.top{
+    transform: translateY(-100px);
+}
+#figura.right{
+    transform: translateX(100px);
+}
+#figura.left{
+    transform: translateX(-100px);
+}
+#figura.bottom{
+    transform: translateY(100px);
+}
+#panel-lateral{
+    width: 20%;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    left: -30%;
+    top: 0;
+    z-index: 9;
+    transition: 1s;
+}
+
+#panel-lateral .close-panel{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #00000000;
+    color: #ffffff;
+    border: 0px;
+}
+
+#panel-lateral h3{
+    margin-top: 50px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#panel-lateral ul{
+    width: 60%;
+    margin: 100px 60px;
+    text-align: center;
+}
+
+#panel-lateral li{
+    list-style: none;
+}
+
+#panel-lateral li a {
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: #000000;
+    border: 1px solid #2a97ad;
+    color: #2a97ad;
+    margin: 15px 0;
+    border-radius: 12px;
+}
+#panel-lateral.active{
+    left: 0;
+}
+.container {
+    margin-top: 60px;
+}
